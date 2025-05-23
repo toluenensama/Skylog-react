@@ -1,6 +1,6 @@
 import axios from "axios";
-// const api_key = import.meta.env.VITE_API_KEY;
-const api_key = "b34321504a69fca470ab09e9fe12bb1e"
+const api_key = import.meta.env.VITE_API_KEY;
+
 
 export const getLocationById = async () => {
   const location = await axios.get("http://ip-api.com/json");
